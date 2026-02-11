@@ -7,5 +7,5 @@ export interface Project {
   status: ProjectStatus;
   startDate: string;
   endDate?: string | null;
-  projectOwner: string;
+  projectOwner: string; // extra field
 }
