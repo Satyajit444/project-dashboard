@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import { projects } from "./data/project";
 import { filterProjects } from "./utils/filterProjects";
 import { ProjectStatus } from "./types/project";

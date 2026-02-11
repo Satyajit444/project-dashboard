@@ -9,8 +9,6 @@ export function filterProjects(
   projects: Project[],
   { status, search }: FilterParams
 ): Project[] {
-
-    console.log('function called for searching');
     
   const normalizedSearch = search.toLowerCase().trim();
 

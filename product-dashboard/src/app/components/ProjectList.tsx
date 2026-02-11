@@ -14,7 +14,7 @@ export default function ProjectList({ projects }: ProjectListProps) {
   return (
     <div className="mt-6 max-h-[60vh] overflow-y-auto pr-2">
       <div className="flex flex-col gap-4">
-        {projects?.map((project) => (
+        {(projects || []).map((project) => (
           <ProjectCard key={project.id} project={project} />
         ))}
       </div>
